@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/flickrListImageView"
+        android:src="@drawable/placedog"
+        android:contentDescription="@string/flikr_list_image_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/standard_margin.large"
+        android:layout_marginStart="@dimen/standard_margin"
+        android:layout_marginEnd="@dimen/standard_margin"
+        android:layout_width="400dp"
+        android:layout_height="400dp"/>
+
+    <TextView
+        android:id="@+id/flickrListAuthor"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_below="@id/flickrListImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/standard_margin.large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Thats a Good Pupper" />
+
+</RelativeLayout>
