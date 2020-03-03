@@ -91,7 +91,6 @@ public class ImageRecyclerAdapter extends RecyclerView.Adapter<ImageRecyclerAdap
                     .load(photo.getImageUrl())
                     .into(mFlickrImageView);
         }
-
         @Override
         public void onClick(View view) {
             mListener.onImageClicked(mPhoto);
