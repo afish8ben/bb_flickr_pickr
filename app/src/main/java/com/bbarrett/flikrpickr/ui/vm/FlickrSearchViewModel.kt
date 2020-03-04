@@ -1,10 +1,8 @@
-package com.bbarrett.flikrpickr.ui.main
+package com.bbarrett.flikrpickr.ui.vm
 
 import androidx.lifecycle.*
 import com.bbarrett.flikrpickr.data.remote.model.FlickrData
-import com.bbarrett.flikrpickr.data.remote.response.FlickrResponse
 import com.bbarrett.flikrpickr.data.remote.service.FlickrService
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class FlickrSearchViewModel : ViewModel() {

@@ -2,4 +2,6 @@
     <string name="app_name">Flikr Pickr</string>
 
     <string name="flikr_list_image_description">Image downloaded from Flickr</string>
+    <string name="toolbar_search">Search</string>
+
 </resources>
